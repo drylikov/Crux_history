@@ -27,8 +27,6 @@ As of March 28 2024, the TTFB metric is still considered experimental.
 
 ## Rate limits
 
-The CrUX history API has a rate limit of 150 requests/minute. This should be sufficient, but if you find yourself getting limited, feel free to deploy your own:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fcrux-history&env=GOOGLE_API_KEY&envDescription=Key%20to%20access%20the%20CrUX%20API)
+The CrUX history API has a rate limit of 150 requests/minute. This should be sufficient, but if you find yourself getting limited, feel free to deploy your own.
 
 See [this page](https://developer.chrome.com/docs/crux/history-api#crux_api_key) for instructions on creating an API key. The API is provided at no cost, but the key is required. Once you have it, set the `GOOGLE_API_KEY` environment variable for your project.
